@@ -12,21 +12,21 @@ public class HelloInit implements PluginBaseService {
 
     @Override
     public void beforeInstall() {
-        LOG.info("Before install hello plugin.");
+        LOG.info("Before install hello plugin v0.0.2.");
     }
 
     @Override
     public void beforeEnable() {
-        LOG.info("Before enable hello plugin.");
+        LOG.info("Before enable hello plugin v0.0.2.");
     }
 
     @Override
     public void beforeDisable() {
-        LOG.info("Before disable hello plugin.");
+        LOG.info("Before disable hello plugin v0.0.2.");
     }
 
     @Override
     public void beforeRemove() {
-        LOG.info("Before remove hello plugin.");
+        LOG.info("Before remove hello plugin v0.0.2.");
     }
 }
