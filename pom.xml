@@ -6,7 +6,7 @@
 
     <groupId>org.termi</groupId>
     <artifactId>termi-plugin-hello</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <properties>
         <elasticsearch.version>6.5.3</elasticsearch.version>
     </properties>
