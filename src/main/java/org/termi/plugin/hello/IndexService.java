@@ -14,6 +14,6 @@ public class IndexService {
 
     @Before("execution(public * org.termi.community.service.question.QuestionService.selectAll(..))")
     public void selectAll() {
-        LOG.info("You are selecting all questions v0.0.2 -- hello plugin.");
+        LOG.info("You are selecting all questions v0.0.3 -- hello plugin.");
     }
 }

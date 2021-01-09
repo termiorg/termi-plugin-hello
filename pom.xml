@@ -6,9 +6,9 @@
 
     <groupId>org.termi</groupId>
     <artifactId>termi-plugin-hello</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <properties>
-        <elasticsearch.version>6.5.3</elasticsearch.version>
+        <text.version>1.9</text.version>
     </properties>
 
     <dependencies>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
-            <version>1.9</version>
+            <version>${text.version}</version>
         </dependency>
 
     </dependencies>
